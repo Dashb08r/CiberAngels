@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #383838;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: max-content !important;
+    background: url(Fondo\ 2.jpeg.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ebebeb;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: #000000;
+    padding: 0 100px;
+}
+
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.box-container .box {
+    height: 8rem;
+    width: 12rem;
+    background: #cecece;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 1rem;
+}
+
+.box-container .box h3 {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.box-container a {
+    display: block;
+    padding: 2px 5px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.box-container a:hover {
+    background: #a0a0a0;
+}
+
+.box-container .box p {
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+}
